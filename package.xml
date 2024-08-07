@@ -3,7 +3,7 @@
 <package format="3">
   <name>robot_routines_py</name>
   <version>0.0.0</version>
-  <description>Paquete para crear y ejecutar rutinas en el robot</description>
+  <description>Paquete para crear y ejecutar rutinas en el robot usando Python</description>
   <maintainer email="axba0001@ce.pucmm.edu.do">robot</maintainer>
   <license>TODO: License declaration</license>
 
