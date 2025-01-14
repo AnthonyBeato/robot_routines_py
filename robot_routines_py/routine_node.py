@@ -7,7 +7,7 @@ class RoutineNode(Node):
 
     def __init__(self):
         super().__init__('routine_node')
-        self.cmd_vel_pub = self.create_publisher(Twist, '/diffbot_base_controller/cmd_vel_unstamped', 10)
+        self.cmd_vel_pub = self.create_publisher(Twist, '/robot_1/diffbot_base_controller/cmd_vel_unstamped', 10)
         self.timer = self.create_timer(0.1, self.execute_routine)
 
         # Inicio de configuracion de variables 
